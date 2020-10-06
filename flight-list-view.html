@@ -39,6 +39,21 @@
     <link rel="stylesheet" href="css/responsive.css">
 
     <style>
+
+        @media (max-width: 991px){
+            #header .logo {
+            float: none !important;
+            position: static !important;
+            padding-top: 0px !important;
+            height: 75px !important;
+            margin: 0 !important;
+            display: block;
+            }
+            #header .logo {
+                height:75px;
+            }
+        }
+
         #header .logo a{
             background: url(images/logo-dipass.png) no-repeat 0 0;
             /* display: block; */
@@ -49,10 +64,56 @@
         #header .logo{
             margin: 20px 0 20px !important;
         }
+        
         #footer .logo a{
             background: url(images/logo-dipass.png) no-repeat 0 0;
             /* display: block; */
         }
+        #footer .bottom {
+            height: 60px;
+            background-color: #ffc000;
+        }
+        .chaser {
+            background: rgb(52 33 107);
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+            -webkit-backface-visibility: hidden;
+            color: white;
+        }
+        .chaser .logo {
+            margin-top: 14px;
+            min-height: initial;
+            padding: 0;
+            height: auto;
+            margin-bottom: 14px;
+        }
+        #main-menu ul.menu > li > a, .chaser ul.menu > li > a {
+            font-weight: normal;
+            display: block;
+            padding: 0;
+            height: 68px;
+            line-height: 75px;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        /* #header .mobile-menu-toggle {
+            background: url(../images/icon/mobile-menu.png) no-repeat center center #34216b;
+            padding: 0;
+            margin: 0;
+            height: 90px;
+            width: 74px;
+            padding: 22px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-indent: -9999px;
+            display: none;
+        } */
     </style>
     
     <!-- CSS for IE -->
@@ -204,7 +265,7 @@
                                     <li class="sort-by-price"><a class="sort-by-container" href="#"><span>Harga</span></a></li>
                                 </ul>
                                 
-                                <ul class="swap-tiles clearfix block-sm">
+                                <!-- <ul class="swap-tiles clearfix block-sm">
                                     <li class="swap-list active">
                                         <a href="flight-list-view.html"><i class="soap-icon-list"></i></a>
                                     </li>
@@ -214,7 +275,7 @@
                                     <li class="swap-block">
                                         <a href="flight-block-view.html"><i class="soap-icon-block"></i></a>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </div>
                             <div class="flight-list listing-style3 flight">
                                 <article class="box">
@@ -225,8 +286,8 @@
                                         <div class="details-wrapper">
                                             <div class="first-row">
                                                 <div>
-                                                    <h4 class="box-title">Indianapolis to Paris<small>Oneway flight</small></h4>
-                                                    <a class="button btn-mini stop">1 STOP</a>
+                                                    <h4 class="box-title">Indianapolis to Paris<small>8 Seat Tersedia</small></h4>
+                                                    
                                                     <div class="amenities">
                                                         <i class="soap-icon-wifi circle"></i>
                                                         <i class="soap-icon-entertainment circle"></i>
@@ -243,13 +304,13 @@
                                                     <div class="take-off col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">Take off</span><br />Wed Nov 13, 2013 7:50 Am
+                                                            <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
                                                         </div>
                                                     </div>
-                                                    <div class="landing col-sm-4">
+                                                    <div class="Sampai Tujuan col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">landing</span><br />Wed Nov 13, 2013 9:20 am
+                                                            <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
                                                         </div>
                                                     </div>
                                                     <div class="total-time col-sm-4">
@@ -274,8 +335,8 @@
                                         <div class="details-wrapper">
                                             <div class="first-row">
                                                 <div>
-                                                    <h4 class="box-title">Indianapolis to Paris<small>Oneway flight</small></h4>
-                                                    <a class="button btn-mini stop">1 STOP</a>
+                                                    <h4 class="box-title">Indianapolis to Paris<small>8 Seat Tersedia</small></h4>
+                                                    
                                                     <div class="amenities">
                                                         <i class="soap-icon-wifi circle"></i>
                                                         <i class="soap-icon-entertainment circle"></i>
@@ -292,13 +353,13 @@
                                                     <div class="take-off col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">Take off</span><br />Wed Nov 13, 2013 7:50 Am
+                                                            <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
                                                         </div>
                                                     </div>
-                                                    <div class="landing col-sm-4">
+                                                    <div class="Sampai Tujuan col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">landing</span><br />Wed Nov 13, 2013 9:20 am
+                                                            <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
                                                         </div>
                                                     </div>
                                                     <div class="total-time col-sm-4">
@@ -323,8 +384,8 @@
                                         <div class="details-wrapper">
                                             <div class="first-row">
                                                 <div>
-                                                    <h4 class="box-title">Indianapolis to Paris<small>Oneway flight</small></h4>
-                                                    <a class="button btn-mini stop">1 STOP</a>
+                                                    <h4 class="box-title">Indianapolis to Paris<small>8 Seat Tersedia</small></h4>
+                                                    
                                                     <div class="amenities">
                                                         <i class="soap-icon-wifi circle"></i>
                                                         <i class="soap-icon-entertainment circle"></i>
@@ -341,13 +402,13 @@
                                                     <div class="take-off col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">Take off</span><br />Wed Nov 13, 2013 7:50 Am
+                                                            <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
                                                         </div>
                                                     </div>
-                                                    <div class="landing col-sm-4">
+                                                    <div class="Sampai Tujuan col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">landing</span><br />Wed Nov 13, 2013 9:20 am
+                                                            <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
                                                         </div>
                                                     </div>
                                                     <div class="total-time col-sm-4">
@@ -372,8 +433,8 @@
                                         <div class="details-wrapper">
                                             <div class="first-row">
                                                 <div>
-                                                    <h4 class="box-title">Indianapolis to Paris<small>Oneway flight</small></h4>
-                                                    <a class="button btn-mini stop">1 STOP</a>
+                                                    <h4 class="box-title">Indianapolis to Paris<small>8 Seat Tersedia</small></h4>
+                                                    
                                                     <div class="amenities">
                                                         <i class="soap-icon-wifi circle"></i>
                                                         <i class="soap-icon-entertainment circle"></i>
@@ -390,13 +451,13 @@
                                                     <div class="take-off col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">Take off</span><br />Wed Nov 13, 2013 7:50 Am
+                                                            <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
                                                         </div>
                                                     </div>
-                                                    <div class="landing col-sm-4">
+                                                    <div class="Sampai Tujuan col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">landing</span><br />Wed Nov 13, 2013 9:20 am
+                                                            <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
                                                         </div>
                                                     </div>
                                                     <div class="total-time col-sm-4">
@@ -421,8 +482,8 @@
                                         <div class="details-wrapper">
                                             <div class="first-row">
                                                 <div>
-                                                    <h4 class="box-title">Indianapolis to Paris<small>Oneway flight</small></h4>
-                                                    <a class="button btn-mini stop">1 STOP</a>
+                                                    <h4 class="box-title">Indianapolis to Paris<small>8 Seat Tersedia</small></h4>
+                                                    
                                                     <div class="amenities">
                                                         <i class="soap-icon-wifi circle"></i>
                                                         <i class="soap-icon-entertainment circle"></i>
@@ -439,13 +500,13 @@
                                                     <div class="take-off col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">Take off</span><br />Wed Nov 13, 2013 7:50 Am
+                                                            <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
                                                         </div>
                                                     </div>
-                                                    <div class="landing col-sm-4">
+                                                    <div class="Sampai Tujuan col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">landing</span><br />Wed Nov 13, 2013 9:20 am
+                                                            <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
                                                         </div>
                                                     </div>
                                                     <div class="total-time col-sm-4">
@@ -470,8 +531,8 @@
                                         <div class="details-wrapper">
                                             <div class="first-row">
                                                 <div>
-                                                    <h4 class="box-title">Indianapolis to Paris<small>Oneway flight</small></h4>
-                                                    <a class="button btn-mini stop">1 STOP</a>
+                                                    <h4 class="box-title">Indianapolis to Paris<small>8 Seat Tersedia</small></h4>
+                                                    
                                                     <div class="amenities">
                                                         <i class="soap-icon-wifi circle"></i>
                                                         <i class="soap-icon-entertainment circle"></i>
@@ -488,13 +549,13 @@
                                                     <div class="take-off col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">Take off</span><br />Wed Nov 13, 2013 7:50 Am
+                                                            <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
                                                         </div>
                                                     </div>
-                                                    <div class="landing col-sm-4">
+                                                    <div class="Sampai Tujuan col-sm-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">landing</span><br />Wed Nov 13, 2013 9:20 am
+                                                            <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
                                                         </div>
                                                     </div>
                                                     <div class="total-time col-sm-4">

@@ -46,22 +46,37 @@
 
         @media (max-width: 991px){
 
-        #header .logo {
-            float: none !important;
-            position: static !important;
-            padding-top: 20px;
-            height: 100px;
-            margin: 0 !important;
-            display: block;
-            
+            #header .logo {
+                float: none !important;
+                position: static !important;
+                padding-top: 20px;
+                height: 100px;
+                margin: 0 !important;
+                display: block;
+                padding-left: 30% !important;
+            }
+            #header .logo img{
+                height: 80px;
+            }   
         }
-        #header .logo img{
-            height: 80px;
-        }
-    }
 
+        @media (min-width: 1200px){
+            .container {
+                padding-left: 0;
+                padding-right: 0;
+                width: 750px;
+            }
+
+        }
+
+        
         section#content{
             min-height: 0px;
+            background: none !important;
+            padding-top: 70px;
+        }
+        .search-box-wrapper{
+            background-color: none !important;
         }
         #slideshow{
             min-height: 100px
@@ -82,6 +97,7 @@
         }
         #header .logo{
             margin: 20px 0 20px;
+            padding-left: 40%;
         }
         #main-menu ul.menu{
             margin-top: 20px;
@@ -130,9 +146,9 @@
            
             <div class="main-header">
                 
-                <a href="#mobile-menu-01" data-toggle="collapse" class="mobile-menu-toggle">
+                <!-- <a href="#mobile-menu-01" data-toggle="collapse" class="mobile-menu-toggle">
                     Mobile Menu Toggle
-                </a>
+                </a> -->
 
                 <div class="container">
                     <h1 class="logo navbar-brand">
@@ -141,24 +157,24 @@
                         </a>
                     </h1>
 
-                    <nav id="main-menu" role="navigation">
+                    <!-- <nav id="main-menu" role="navigation">
                         <ul class="menu">
                             <li class="menu-item-has-children">
                                 <a href="index.html" style="color:white;">Home</a>
                             </li>
                             
                         </ul>
-                    </nav>
+                    </nav> -->
                 </div>
                 
-                <nav id="mobile-menu-01" class="mobile-menu collapse">
+                <!-- <nav id="mobile-menu-01" class="mobile-menu collapse">
                     <ul id="mobile-primary-menu" class="menu">
                         <li class="menu-item-has-children">
                             <a href="index.html">Home</a>
                         </li>
                         
                     </ul>
-                </nav>
+                </nav> -->
             </div>
             
         </header>
@@ -170,7 +186,7 @@
             
         <section id="content">
             <div class="search-box-wrapper">
-                <div class="search-box container">
+                <div class="search-box container" style="background-color: white; border-radius: 20px; padding: 5px 10px 5px 10px;">
                     <ul class="search-tabs clearfix">
                         <li class="active"><a href="#flights-tab" data-toggle="tab" style="color: #34216b; font-size: 15px; font-weight: bold;">BELI TIKET</a></li>
                         <li><a href="#online-checkin-tab" data-toggle="tab" style="color: #34216b; font-size: 15px; font-weight: bold;">CETAK TIKET</a></li>

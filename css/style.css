@@ -140,7 +140,9 @@ html {
 
 body {
   font: 75%/150% "Nunito", Arial, Helvetica, sans-serif;
-  background-color: #fff;
+  background-image:url('../images/felabellaHomeHero.png');
+  background-size: cover;
+  background-repeat: no-repeate;
   color: #838383;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -5426,7 +5428,7 @@ ul.check-circle li:before {
             animation: toBottomFromTop 0.3s forwards; }
 
 #header .logo a, #footer .logo a, .chaser .logo a {
-  background: url("../images/logo/skin1-logo.png") no-repeat 0 0;
+  background: url("../images/logo-dipass.png") no-repeat 0 0;
   display: block; }
 #header .logo img, #footer .logo img, .chaser .logo img {
   filter: alpha(opacity=0);
@@ -6002,9 +6004,9 @@ ul.menu.mini {
     height: auto;
     margin-bottom: 0; }
     .chaser .logo img {
-      height: 20px; }
+      height: 50px; }
     .chaser .logo a {
-      background-size: auto 20px; }
+      background-size: auto 50px; }
 
 .no-rgba .chaser {
   background: #fff;
@@ -6504,7 +6506,7 @@ ul.menu.mini {
 /* 4. Search Form ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* 4.1. Default Style ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .search-box-wrapper {
-  background: #fff; }
+ }
 
 .search-box {
   margin-top: -80px;
