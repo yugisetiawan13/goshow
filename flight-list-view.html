@@ -100,6 +100,24 @@
             text-transform: uppercase;
             letter-spacing: 0.04em;
         }
+
+        .price {
+            color: #34216b;
+            font-size: 1.6667em;
+            text-transform: uppercase;
+            float: left !important;
+            text-align: left !important;
+            line-height: 1;
+            display: block;
+        }
+        section#content{
+            min-height: 492px;
+        }
+        .btn-info {
+            color: #fff;
+            background-color: #34216b;
+            border-color: #34216b;
+        }
         /* #header .mobile-menu-toggle {
             background: url(../images/icon/mobile-menu.png) no-repeat center center #34216b;
             padding: 0;
@@ -277,301 +295,119 @@
                                     </li>
                                 </ul> -->
                             </div>
-                            <div class="flight-list listing-style3 flight">
-                                <article class="box">
-                                    <figure class="col-xs-3 col-sm-2">
-                                        <span><img alt="" src="http://placehold.it/270x160"></span>
-                                    </figure>
-                                    <div class="details col-xs-9 col-sm-10">
-                                        <div class="details-wrapper">
-                                            <div class="first-row">
-                                                <div>
-                                                    <h4 class="box-title">Sinar Jaya<small>8 Seat Tersedia</small></h4>
-                                                    
-                                                    <div class="amenities">
-                                                        <i class="soap-icon-wifi circle"></i>
-                                                        <i class="soap-icon-entertainment circle"></i>
-                                                        <i class="soap-icon-fork circle"></i>
-                                                        <i class="soap-icon-suitcase circle"></i>
+                            
+                                <div class="toggle-container box" id="accordion2">
+                                    <div class="panel style2">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" href="#acc1" data-toggle="collapse" data-parent="#accordion2">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <h4 class="box-title">Sinar Jaya<small>8 Seat Tersedia</small></h4>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="amenities">
+                                                            <i class="soap-icon-wifi circle"></i>
+                                                            <i class="soap-icon-entertainment circle"></i>
+                                                            <i class="soap-icon-fork circle"></i>
+                                                            <i class="soap-icon-suitcase circle"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <span class="price">Rp. 500000</span>
                                                     </div>
                                                 </div>
-                                                <div>
-                                                    <span class="price">Rp. 500000</span>
-                                                </div>
-                                            </div>
-                                            <div class="second-row">
-                                                <div class="time">
-                                                    <div class="take-off col-sm-4">
+                                                <div class="row">
+                                                    <div class="col-md-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
                                                             <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
                                                         </div>
                                                     </div>
-                                                    <div class="Sampai Tujuan col-sm-4">
+                                                    <div class="col-md-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
                                                             <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
                                                         </div>
                                                     </div>
-                                                    <div class="total-time col-sm-4">
+                                                    <div class="col-md-4">
                                                         <div class="icon"><i class="soap-icon-clock yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">total time</span><br />13 Hour, 40 minutes
+                                                            <span class="skin-color">Total Waktu</span><br />13 Hour, 40 minutes
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="action">
-                                                    <a href="flight-detailed.html" class="button btn-small full-width">Pilih Bus</a>
+                                            </a>
+                                        </h4>
+                                        <div class="panel-collapse collapse" id="acc1">
+                                            <div class="panel-content row">
+                                                <div class="col-md-7 text-center">
+                                                    <h3>Pilih Kursi</h3>
                                                 </div>
-                                            </div>
+                                                <div class="col-md-5 text-center">
+                                                    <h3>Detail Pembayaran</h3>
+                                                    <a href="flight-booking.html" class="btn btn-md btn-info">Lanjutkan Pembayaran</a>
+                                                </div>
+                                            </div><!-- end content -->
                                         </div>
                                     </div>
-                                </article>
-                                <article class="box">
-                                    <figure class="col-xs-3 col-sm-2">
-                                        <span><img alt="" src="http://placehold.it/270x160"></span>
-                                    </figure>
-                                    <div class="details col-xs-9 col-sm-10">
-                                        <div class="details-wrapper">
-                                            <div class="first-row">
-                                                <div>
-                                                    <h4 class="box-title">Sinar Jaya<small>8 Seat Tersedia</small></h4>
-                                                    
-                                                    <div class="amenities">
-                                                        <i class="soap-icon-wifi circle"></i>
-                                                        <i class="soap-icon-entertainment circle"></i>
-                                                        <i class="soap-icon-fork circle"></i>
-                                                        <i class="soap-icon-suitcase circle"></i>
+                                
+                                <!-- </div>
+                                <div class="toggle-container box" id="accordion2"> -->
+                                    <div class="panel style2">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" href="#acc2" data-toggle="collapse" data-parent="#accordion2">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <h4 class="box-title">Sinar Jaya<small>8 Seat Tersedia</small></h4>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="amenities">
+                                                            <i class="soap-icon-wifi circle"></i>
+                                                            <i class="soap-icon-entertainment circle"></i>
+                                                            <i class="soap-icon-fork circle"></i>
+                                                            <i class="soap-icon-suitcase circle"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <span class="price">Rp. 500000</span>
                                                     </div>
                                                 </div>
-                                                <div>
-                                                    <span class="price">Rp. 500000</span>
-                                                </div>
-                                            </div>
-                                            <div class="second-row">
-                                                <div class="time">
-                                                    <div class="take-off col-sm-4">
+                                                <div class="row">
+                                                    <div class="col-md-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
                                                             <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
                                                         </div>
                                                     </div>
-                                                    <div class="Sampai Tujuan col-sm-4">
+                                                    <div class="col-md-4">
                                                         <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
                                                         <div>
                                                             <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
                                                         </div>
                                                     </div>
-                                                    <div class="total-time col-sm-4">
+                                                    <div class="col-md-4">
                                                         <div class="icon"><i class="soap-icon-clock yellow-color"></i></div>
                                                         <div>
-                                                            <span class="skin-color">total time</span><br />13 Hour, 40 minutes
+                                                            <span class="skin-color">Total Waktu</span><br />13 Hour, 40 minutes
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="action">
-                                                    <a href="flight-detailed.html" class="button btn-small full-width">Pilih Bus</a>
+                                            </a>
+                                        </h4>
+                                        <div class="panel-collapse collapse" id="acc2">
+                                            <div class="panel-content row">
+                                                <div class="col-md-7 text-center">
+                                                    <h3>Pilih Kursi</h3>
                                                 </div>
-                                            </div>
+                                                <div class="col-md-5 text-center">
+                                                    <h3>Detail Pembayaran</h3>
+                                                    <a href="flight-booking.html" class="btn btn-md btn-info">Lanjutkan Pembayaran</a>
+                                                </div>
+                                            </div><!-- end content -->
                                         </div>
                                     </div>
-                                </article>
-                                <article class="box">
-                                    <figure class="col-xs-3 col-sm-2">
-                                        <span><img alt="" src="http://placehold.it/270x160"></span>
-                                    </figure>
-                                    <div class="details col-xs-9 col-sm-10">
-                                        <div class="details-wrapper">
-                                            <div class="first-row">
-                                                <div>
-                                                    <h4 class="box-title">Sinar Jaya<small>8 Seat Tersedia</small></h4>
-                                                    
-                                                    <div class="amenities">
-                                                        <i class="soap-icon-wifi circle"></i>
-                                                        <i class="soap-icon-entertainment circle"></i>
-                                                        <i class="soap-icon-fork circle"></i>
-                                                        <i class="soap-icon-suitcase circle"></i>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <span class="price">Rp. 500000</span>
-                                                </div>
-                                            </div>
-                                            <div class="second-row">
-                                                <div class="time">
-                                                    <div class="take-off col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
-                                                        </div>
-                                                    </div>
-                                                    <div class="Sampai Tujuan col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
-                                                        </div>
-                                                    </div>
-                                                    <div class="total-time col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-clock yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">total time</span><br />13 Hour, 40 minutes
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="action">
-                                                    <a href="flight-detailed.html" class="button btn-small full-width">Pilih Bus</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="box">
-                                    <figure class="col-xs-3 col-sm-2">
-                                        <span><img alt="" src="http://placehold.it/270x160"></span>
-                                    </figure>
-                                    <div class="details col-xs-9 col-sm-10">
-                                        <div class="details-wrapper">
-                                            <div class="first-row">
-                                                <div>
-                                                    <h4 class="box-title">Sinar Jaya<small>8 Seat Tersedia</small></h4>
-                                                    
-                                                    <div class="amenities">
-                                                        <i class="soap-icon-wifi circle"></i>
-                                                        <i class="soap-icon-entertainment circle"></i>
-                                                        <i class="soap-icon-fork circle"></i>
-                                                        <i class="soap-icon-suitcase circle"></i>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <span class="price">Rp. 500000</span>
-                                                </div>
-                                            </div>
-                                            <div class="second-row">
-                                                <div class="time">
-                                                    <div class="take-off col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
-                                                        </div>
-                                                    </div>
-                                                    <div class="Sampai Tujuan col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
-                                                        </div>
-                                                    </div>
-                                                    <div class="total-time col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-clock yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">total time</span><br />13 Hour, 40 minutes
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="action">
-                                                    <a href="flight-detailed.html" class="button btn-small full-width">Pilih Bus</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="box">
-                                    <figure class="col-xs-3 col-sm-2">
-                                        <span><img alt="" src="http://placehold.it/270x160"></span>
-                                    </figure>
-                                    <div class="details col-xs-9 col-sm-10">
-                                        <div class="details-wrapper">
-                                            <div class="first-row">
-                                                <div>
-                                                    <h4 class="box-title">Sinar Jaya<small>8 Seat Tersedia</small></h4>
-                                                    
-                                                    <div class="amenities">
-                                                        <i class="soap-icon-wifi circle"></i>
-                                                        <i class="soap-icon-entertainment circle"></i>
-                                                        <i class="soap-icon-fork circle"></i>
-                                                        <i class="soap-icon-suitcase circle"></i>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <span class="price">Rp. 500000</span>
-                                                </div>
-                                            </div>
-                                            <div class="second-row">
-                                                <div class="time">
-                                                    <div class="take-off col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
-                                                        </div>
-                                                    </div>
-                                                    <div class="Sampai Tujuan col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
-                                                        </div>
-                                                    </div>
-                                                    <div class="total-time col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-clock yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">total time</span><br />13 Hour, 40 minutes
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="action">
-                                                    <a href="flight-detailed.html" class="button btn-small full-width">Pilih Bus</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="box">
-                                    <figure class="col-xs-3 col-sm-2">
-                                        <span><img alt="" src="http://placehold.it/270x160"></span>
-                                    </figure>
-                                    <div class="details col-xs-9 col-sm-10">
-                                        <div class="details-wrapper">
-                                            <div class="first-row">
-                                                <div>
-                                                    <h4 class="box-title">Sinar Jaya<small>8 Seat Tersedia</small></h4>
-                                                    
-                                                    <div class="amenities">
-                                                        <i class="soap-icon-wifi circle"></i>
-                                                        <i class="soap-icon-entertainment circle"></i>
-                                                        <i class="soap-icon-fork circle"></i>
-                                                        <i class="soap-icon-suitcase circle"></i>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <span class="price">Rp. 500000</span>
-                                                </div>
-                                            </div>
-                                            <div class="second-row">
-                                                <div class="time">
-                                                    <div class="take-off col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">Keberangkatan</span><br />Wed Nov 13, 2013 7:50 Am
-                                                        </div>
-                                                    </div>
-                                                    <div class="Sampai Tujuan col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">Sampai Tujuan</span><br />Wed Nov 13, 2013 9:20 am
-                                                        </div>
-                                                    </div>
-                                                    <div class="total-time col-sm-4">
-                                                        <div class="icon"><i class="soap-icon-clock yellow-color"></i></div>
-                                                        <div>
-                                                            <span class="skin-color">total time</span><br />13 Hour, 40 minutes
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="action">
-                                                    <a href="flight-detailed.html" class="button btn-small full-width">Pilih Bus</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
+                                
+                                </div>
                             </div>
                             <a class="button uppercase full-width btn-large">Tampilkan Lebih Banyak</a>
                         </div>
