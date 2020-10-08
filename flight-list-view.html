@@ -48,6 +48,7 @@
             height: 75px !important;
             margin: 0 !important;
             display: block;
+            padding-left: 35% !important;
             }
             #header .logo {
                 height:75px;
@@ -63,6 +64,7 @@
         }
         #header .logo{
             margin: 20px 0 20px !important;
+            padding-left: 40%;
         }
         
         #footer .logo a{
@@ -118,6 +120,9 @@
             background-color: #34216b;
             border-color: #34216b;
         }
+        .skin-color {
+            color: #2d3e52;
+        }
         /* #header .mobile-menu-toggle {
             background: url(../images/icon/mobile-menu.png) no-repeat center center #34216b;
             padding: 0;
@@ -159,17 +164,17 @@
                         </a>
                     </h1>
                 
-                    <nav id="main-menu" role="navigation">
+                    <!-- <nav id="main-menu" role="navigation">
                         <ul class="menu">
                             <li class="menu-item-has-children">
                                 <a href="index.html" style="color:white;">Home</a>
                             </li>
                 
                         </ul>
-                    </nav>
+                    </nav> -->
                 </div>
                 
-                <nav id="mobile-menu-01" class="mobile-menu collapse">
+                <!-- <nav id="mobile-menu-01" class="mobile-menu collapse">
                     <ul id="mobile-primary-menu" class="menu">
                         <li class="menu-item-has-children">
                             <a href="index.html">Home</a>
@@ -177,7 +182,7 @@
                         
                     </ul>
                     
-                </nav>
+                </nav> -->
             </div>
         </header>
         <div class="page-title-container">
@@ -302,7 +307,7 @@
                                             <a class="collapsed" href="#acc1" data-toggle="collapse" data-parent="#accordion2">
                                                 <div class="row">
                                                     <div class="col-md-4 col-sm-6">
-                                                        <h4 class="box-title">Sinar Jaya<small>8 Seat Tersedia</small></h4>
+                                                        <h4 class="box-title"><img alt="" src="images/logo-sj.png" style="width:145px;"></h4>
                                                     </div>
                                                     <div class="col-md-4 col-sm-6">
                                                         <div class="amenities">
@@ -318,13 +323,13 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
+                                                        <div class="icon"><i class="soap-icon-plane-right white-color"></i></div>
                                                         <div>
                                                             <span class="skin-color">Terminal Jatijajar</span><br />Wed Nov 13, 2013 7:50 Am
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
+                                                        <div class="icon"><i class="soap-icon-plane-right white-color"></i></div>
                                                         <div>
                                                             <span class="skin-color">Terminal Tirtonadi</span><br />Wed Nov 13, 2013 9:20 am
                                                         </div>
@@ -387,11 +392,13 @@
                                         </div>
                                     </div>
                                     <div class="panel style2">
+                    
                                         <h4 class="panel-title">
                                             <a class="collapsed" href="#acc2" data-toggle="collapse" data-parent="#accordion2">
                                                 <div class="row">
+                                                    
                                                     <div class="col-md-4 col-sm-6">
-                                                        <h4 class="box-title">Sinar Jaya<small>8 Seat Tersedia</small></h4>
+                                                        <h4 class="box-title"><img alt="" src="images/logo-sj.png" style="width:145px;"></h4>
                                                     </div>
                                                     <div class="col-md-4 col-sm-6">
                                                         <div class="amenities">
@@ -407,13 +414,13 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
+                                                        <div class="icon"><i class="soap-icon-plane-right white-color"></i></div>
                                                         <div>
                                                             <span class="skin-color">Terminal Jatijajar</span><br />Wed Nov 13, 2013 7:50 Am
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <div class="icon"><i class="soap-icon-plane-right yellow-color"></i></div>
+                                                        <div class="icon"><i class="soap-icon-plane-right white-color"></i></div>
                                                         <div>
                                                             <span class="skin-color">Terminal Tirtonadi</span><br />Wed Nov 13, 2013 9:20 am
                                                         </div>
@@ -548,15 +555,15 @@
             tjq("#price-range").slider({
                 range: true,
                 min: 0,
-                max: 1000,
-                values: [ 100, 800 ],
+                max: 1000000,
+                values: [ 120000, 500000 ],
                 slide: function( event, ui ) {
-                    tjq(".min-price-label").html( "$" + ui.values[ 0 ]);
-                    tjq(".max-price-label").html( "$" + ui.values[ 1 ]);
+                    tjq(".min-price-label").html( "Rp" + ui.values[ 0 ]);
+                    tjq(".max-price-label").html( "Rp" + ui.values[ 1 ]);
                 }
             });
-            tjq(".min-price-label").html( "$" + tjq("#price-range").slider( "values", 0 ));
-            tjq(".max-price-label").html( "$" + tjq("#price-range").slider( "values", 1 ));
+            tjq(".min-price-label").html( "Rp" + tjq("#price-range").slider( "values", 0 ));
+            tjq(".max-price-label").html( "Rp" + tjq("#price-range").slider( "values", 1 ));
 
             function convertTimeToHHMM(t) {
                 var minutes = t % 60;

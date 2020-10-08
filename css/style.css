@@ -2598,12 +2598,12 @@ ul.check-circle li:before {
         display: block;
         line-height: normal;
         padding: 15px 20px;
-        color: #01b7f2; }
+        color: #2d3e52; }
         .toggle-container .panel.style2 .panel-title > a.collapsed {
           color: inherit;
           position: relative; }
           .toggle-container .panel.style2 .panel-title > a.collapsed:hover {
-            color: #01b7f2; }
+            color: #2d3e52; }
         .toggle-container .panel.style2 .panel-title > a:after {
           content: "\f068";
           font-family: FontAwesome;
@@ -2621,7 +2621,7 @@ ul.check-circle li:before {
         .toggle-container .panel.style2 .panel-title > a.collapsed:after {
           content: "\f067";
           color: #fff;
-          background: #01b7f2; }
+          background: #2d3e52; }
     .toggle-container .panel.style2 .panel-content {
       padding: 0 15px 30px 20px; }
   .toggle-container.with-image > .image-container {
